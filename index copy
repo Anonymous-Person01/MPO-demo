@@ -46,7 +46,7 @@
 
 
     <br><br>
-    <h2 id="abstract">Overview<a name="abstract"></a></h2>
+    <h2 id="abstract">1.模型结构<a name="abstract"></a></h2>
     <!-- <p>Recent advances in text-to-speech, particularly those based on Graph Neural Networks (GNNs), have significantly improved the expressiveness of short-form synthetic speech. However, generating human-parity long-form speech with high dynamic prosodic variations is still challenging. To address this problem, we expand the capabilities of GNNs with a hierarchical prosody modeling approach, named HiGNN-TTS. Specifically, we add a virtual global node in the graph to strengthen the interconnection of word nodes and introduce a contextual attention mechanism to broaden the prosody modeling scope of GNNs from intra-sentence to inter-sentence. Additionally, we perform hierarchical supervision from acoustic prosody on each node of the graph to capture the prosodic variations with a high dynamic range. Ablation studies show the effectiveness of HiGNN-TTS in learning hierarchical prosody. Both objective and subjective evaluations demonstrate that HiGNN-TTS significantly improves the naturalness and expressiveness of long-form synthetic speech.</p> -->
 
 
@@ -63,12 +63,12 @@
     <h2>2. Demos <a name="Comparison"></a></h2>
     <p> </p>
     <ul>
-        <li><b>Comming Soon......</b></li>
-        <!-- <li><b>2.精品有声书合成</b></li>
+        <li><b>1.精品拟人对话语句合成</b></li>
+        <li><b>2.精品有声书合成</b></li>
         <li><b>3.情感语句合成</b></li>
-        <li><b>4.中英名人音色克隆</b></li> -->
+        <li><b>4.中英名人音色克隆</b></li>
     </ul>
-    <!-- <p style="height: 20px;"></p> -->
+    <p style="height: 20px;"></p>
 
     <!-- <p>1.精品拟人对话合成</p>
     <p>2.精品有声书合成</p>
@@ -85,12 +85,12 @@
 
     </ul> -->
 
-    <!-- <h3>2.1 精品拟人对话语句合成</h3>
+    <h3>2.1 精品拟人对话语句合成</h3>
     <table style="width: 100%;">
         <tbody id="tbody_niren"></tbody>
-    </table> -->
+    </table>
 
-    <!-- <table style="width: 100%;">
+    <table style="width: 100%;">
         <tr>
             <th>对话文本</th><th>精品合成音频</th>
         </tr>
@@ -113,7 +113,7 @@
                 <audio controls><source src="./raw/dialog_pr.wav" type="audio/wav"></audio>
             </td>
         </tr>
-    </table> -->
+    </table>
     <!-- <div>
         <p><strong>女：</strong>哎，好久不见，李明听说你研究生是保研到了西北工业大学的 ASLP 实验室是吗？</p>
         <p><strong>男：</strong>嗯，是的，我之前就一直对像音频啊语音合成这些特别感兴趣，刚好实验室也在专注研究这块，就真的，嗯，挺幸运的吧。</p>
@@ -150,7 +150,7 @@
         </audio>
     </div> -->
 
-    <!-- <p style="height: 20px;"></p> -->
+    <p style="height: 20px;"></p>
 
     <!-- <h3>2.2 精品有声书合成</h3>
     <div style="line-height: 1.8; font-family: Arial, sans-serif; margin-bottom: 20px;text-align: center;">
@@ -169,11 +169,11 @@
             您的浏览器不支持音频元素，请使用支持的浏览器。
         </audio>
     </div> -->
-    <!-- <h3>2.2 精品有声书合成</h3>
+    <h3>2.2 精品有声书合成</h3>
 
-    <p style="height: 20px;"></p> -->
+    <p style="height: 20px;"></p>
 
-    <!-- <table>
+    <table>
         <tr>
             <th>有声书文本</th><th>精品合成音频</th>
         </tr>
@@ -220,27 +220,27 @@
                 <audio controls><source src="./raw/spk2-booktest_4_1_gen2_codec-full.wav" type="audio/wav"></audio>
             </td>
         </tr>
-    </table> -->
+    </table>
 
 
 
-    <!-- <p style="height: 20px;"></p> -->
+    <p style="height: 20px;"></p>
     
     <!-- <h3>2.3 精品拟人语句合成 </h3> -->
 
 
 
-    <!-- <h3>2.3 情感合成 </h3>
+    <h3>2.3 情感合成 </h3>
     <table>
       <tbody id="tbody_short">
       </tbody>
-    </table> -->
+    </table>
 
-    <!-- <h3>2.4 中英名人语音克隆</h3>
+    <h3>2.4 中英名人语音克隆</h3>
     <table>
       <tbody id="tbody_fa">
       </tbody>
-    </table> -->
+    </table>
 
 
 </html>
